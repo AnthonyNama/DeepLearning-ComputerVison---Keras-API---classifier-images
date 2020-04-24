@@ -43,3 +43,8 @@ Mon arborescence depuis mon drive :
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>  
 </p>
     
+# Utilisation
+Charger l'image sous forme numpy array 3 channels(img)
+
+import p6_02_dog_breed_identification as prog
+prog.dogBreedIdentification(img, top=3)
